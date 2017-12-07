@@ -1,0 +1,210 @@
+
+
+body {
+  background: #9b937d;
+}
+
+
+.main-header, .main-nav, .home-content, .button, .circle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-center;
+}
+
+.name {
+  color: #423c32;
+  padding: 45px;
+}
+
+.name:hover {
+  color: #f79504;
+  font-size: 40px;
+}
+
+.main-header {
+height: 100px;
+background: linear-gradient(to top,  #f4e7d2 0%, #ff9933 100%);
+}
+
+a, li {
+  color: #423c32;
+  padding: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 5px;
+  align-items: center;
+}
+
+a:hover {
+  color: #f79504;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #9b937d;
+  height: 200px;
+}
+
+.button1, .button2, .button3, .button4,
+.reset1, .reset2, .reset3, .reset4  {
+  background: linear-gradient(to bottom, #ffcc66 0%, #ff99cc 100%);
+  border-radius: 10%;
+  border: none;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.forestPage {
+  display: flex;
+  color: white;
+  background-color: #555;
+  height: auto;
+  padding: 35px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.game, .gameBtn, .directions, .madlib {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.forestPic {
+  margin: 0 300px 0 300px;
+}
+
+.gamePage {
+  flex-direction: column;
+  background: black;
+  color: White;
+}
+
+
+.gamePage {
+  display: flex;
+  color: white;
+  background-color: black;
+  height: auto;
+  padding: 35px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.scaryWoods {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  flex: -1;
+}
+
+.gameNav {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  margin-left: 45px;
+
+
+}
+
+.gameHead {
+  display: flex;
+  text-align: center;
+  text-shadow: 2px 2px 0 gray, -2px -2px 0 gray;
+  margin-left: 10px;
+}
+
+.madLib {
+  display: flex;
+  color: white;
+  width: 400px;
+}
+
+
+
+/*Kyle's Stuff*/
+
+
+#kylePage {
+  background: #eae8d5;
+}
+
+.quizHead {
+  color: #555;
+  text-align: center;
+}
+
+.quizBody {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.buttonChoice1, .buttonChoice2 {
+  display: flex;
+  align-self: center;
+}
+
+
+.lightBright {
+  margin-top: 50px;
+  z-index: 0;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 60px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.circle-off {
+  background: radial-gradient(white, lightblue, blue);
+}
+
+.circle-green {
+    background: radial-gradient(lavender, #5f5fd3 , #5a1a68);
+}
+
+.circle-red {
+  background: radial-gradient(white, teal, turquoise);
+}
+
+.circle-orange {
+  background: radial-gradient(white, #e2af4f, #f28e02);
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  background-color: gray;
+}
+
+.action-buttons button {
+  margin: 10px;
+  padding: 5px 20px 5px;
+}
